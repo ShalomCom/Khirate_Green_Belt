@@ -1,0 +1,29 @@
+
+groupby( ) is roughly equivalent to:
+	Class groupby:
+# [k for k, g in groupby (g in groupby (‘AAAABBBCCDAABBB’))
+
+	→ A B C D A B
+# [list (g) for k, g in groupby (‘AAAABBDCCD’] →
+
+def_init_(self, iterable, key= None):
+	If key is None:
+	      Key = Lambda x=x
+	Self.it = iter (iterable)
+Self.tgtkey = self.currkey = self.currvalue= object( memory address mut)
+
+Def_iter_ (self):
+	Return self
+	def_next_(self):
+	Self.id = object ( )
+	While self.currkey ==self.tgtkey:
+		self.currvalue=next(self.it)
+		self.currkey=self.keyfunc(self=currvalue)
+
+self.tgtkey= self.currkey
+	Return (self.currkey,self._groupeR(self.tgtkey, self.id))
+Def_grouper (self, tgtkey, id):
+	While self.id is id and self.currkey==tgtkey
+
+Yield self.currvalue
+	key:
